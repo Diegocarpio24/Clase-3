@@ -1,0 +1,113 @@
+body { /*se hace el llamado a la etiqueta body para darle el colo negro del fondo completo de la pagina web*/
+    border: 0;
+    background-color: black;
+}
+
+h1 { /*configuramos el titulo haciendo el llamado de la clase */
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 12px;
+    margin: auto;
+    font-weight: 500;
+}
+
+header img { /*aqui configuramos el tamaño al 100% de la imagen para que se tome en toda la pagina en el apartado del primer bloque*/
+    width: 100%;
+}
+
+section { /*se aplica flexbox para ser aplicado a la 3ra parte del cuerpo del landing page*/
+    display: flex ;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+section p{/*se aplica estilo al parrafo del texto*/
+    top: 876px;
+    left: 150px;
+    width: 475px;
+    height: 197px; 
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font: normal;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+section img { /*se configura las dimensiones de la imagen a ser mostrada*/
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+}
+
+article div{ /*se aplica flexbox a toda la etiqueta contenedora*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+article{/*se aplica el color del fondo de todao el recuadro que nos otroga la etiqueta div*/
+    background-color: #1e1912;
+    opacity: 0.98;
+    
+}
+
+article div div{ /*se aplica un flex para que se baje el texto de la etiqueta hija del parrafo del texto*/
+    flex-direction: column;
+}
+
+h2 {/*se aplica cambios para configurar el estilo de la fuente del texto*/
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-align: center;  
+    padding: 1%;
+}
+
+article p { /*se le da estilos a el texto del parrafo*/
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.cuadros{ /*se usa flexbox para darle orden a las 3 imagenes mostradas en el landing page*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+    margin: 2%;
+}
+
+.cuadros img{ /*se llama a la etiqueta de la clase cuadros para darle diametros a las imagenes */
+    width: 316px;
+    height: 202px;
+}
+
+footer { /*se aplica para que se coloque un color distinto al footer por eso el back ground color se llama a un color en especifico*/
+    background-color: #1e1912;
+    opacity: 0.98;
+    bottom: 0%;
+    margin-bottom: 0%;
+}
+
+footer p{ /*se aplica estilo al texto del footer*/
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-align: center;  
+    padding: 1%;
+}
+
+footer a { /*se aplica color al texto del hipervinculo*/
+    color: white;
+}
